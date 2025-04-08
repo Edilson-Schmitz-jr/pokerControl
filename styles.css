@@ -1,0 +1,203 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body{
+    background-color: #112834;
+    background-image: url(Assets/Fundo.png);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+body, html {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.page {
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    transition: .8s ease-in-out;
+    justify-content: center;
+}
+.hidden {
+    opacity: 0;
+    transition: .3s ease-in-out;
+    pointer-events: none;
+}
+.nav-buttons {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    transition: 0.3s ease;
+    z-index: 100;
+}
+button {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid #04e39a;
+    font-size: 26px;
+    transition: 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+button:hover {
+    background-color: #439a9a;
+}
+
+.imgNavButtons {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* --------------------------- Primeira página------------------------------------ */
+
+.container_page_1_elements {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.logo_pokercontrol_central {
+    width: 35%;
+    margin-bottom: 4%;
+    animation-delay: .1s;
+}
+
+.title_page_1_central {
+    font-size: 4rem;
+    color: #04e39a;
+    margin-bottom: 2%;
+    animation-delay: .2s;
+}
+.subtitle_page_1_central {
+    max-width: 60%;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #d6fefe;
+    margin-bottom: 5%;
+    animation-delay: .3s;
+}
+.button_inicial_experience {
+    display: flex;
+    background-color: #0d564e;
+    width: 240px;
+    border-radius: 40px;
+    padding: 10px;
+    border: 1px solid transparent;
+    background-image: linear-gradient(#0d564e, #0d564e), linear-gradient(45deg, #04e39a, #0d564e, #0d564e, #04e39a);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    color: #04e39a;
+    font-size: 26px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+    justify-content: center;
+    animation-delay: .4s;
+}
+
+.button_inicial_experience:hover {
+    background-color: #036f58;
+    border-color: #04e39a;
+}
+
+.button_inicial_experience:active {
+    background-color: #048a6f;
+    border-color: #04e39a;
+}
+
+
+/* ------------------------------ Segunda página ------------------------------------------ */
+
+.cards_3_collunms {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.articleStyles {
+    max-width: 300px;
+    width: 27vw;
+    height: 60vh;
+    background-color: #05564d;
+    border-radius: 20px;
+    border: 1px solid #d6fefe;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_img {
+    background-color: #d6fefe;
+    padding: 2% 2%;
+    border-radius: 10px;
+    width: 25%;
+    margin: 7%;
+}
+
+.titleCard {
+    color: #04e39a;
+    font-size: 1.8rem;
+    margin: 7%;
+    font-weight: 600;
+}
+.textCard {
+    color: #d6fefe;
+    font-size: 0.9rem;
+    margin: 7%;
+    font-weight: 300;
+    text-shadow: #112834;
+}
+
+/* ----------------------------------- Terceira página ---------------------------------------- */
+
+
+.luzFundoPage3 {
+    filter: opacity(40%);
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    position: absolute;
+    z-index: 10;
+}
+
+.priceTitle {
+    z-index: 100;
+    color: #fee39a;
+    font-size: 2.8rem;
+    padding: 1px 20px;
+    height: 60px;
+    background: linear-gradient(to right, transparent, transparent, #05564d);
+    border: 1px;
+    border-radius: 999px;
+
+}
