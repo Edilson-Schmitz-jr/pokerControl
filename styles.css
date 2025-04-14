@@ -14,7 +14,7 @@ body{
     background-size: cover;
     background-position: center;
     width: 100vw;
-    top: 0px;
+    top: 0;
 
 }
 
@@ -228,7 +228,7 @@ button:hover {
     background: linear-gradient(to right, transparent, transparent, #193528);
     border: 1px;
     border-radius: 999px;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .containerPriceElements {
@@ -301,3 +301,164 @@ button:hover {
     z-index: 100;
     font-family: 'Georgia', serif;
 }
+
+/* ------------------------------- Página 4 --------------------------------------- */
+
+.containerSpecialPrice {
+    max-width: 1200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titleSpecialPrice {
+    color: #04e39a;
+    z-index: 100;
+    font-size: 2.8rem;
+    padding-right: 20px;
+    height: 60px;
+    background: linear-gradient(to right, transparent, transparent, #05564d);
+    border: 1px;
+    margin-bottom: 5%;
+    border-radius: 999px;
+}
+.cardsSpecialPrice {
+    display: flex;
+    width: 700px;
+    height: 500px;
+    margin-bottom: 5%;
+    grid-template-columns: 1fr 1fr;
+}
+.colunmCard {
+    max-width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+}
+.textCards {
+    padding: 0 20px;
+    margin: auto 0;
+    color: #d6fefe;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.cardLeft1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #05564d;
+    width: 100%;
+    height: 165px;
+    border-radius: 15px;
+    border: 1px solid #fefefe;
+}
+.cardLeft2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #05564d;
+    width: 100%;
+    height: 225px;
+    border-radius: 15px;
+    border: 1px solid #fefefe;
+}
+.specialPrice1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    height: 100%;
+}
+.specialPrice2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    height: 100%;
+}
+.cardRight {
+    display: flex;
+    flex-direction: column;
+    background-color: #05564d;
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;
+    border: 1px solid #fefefe;
+}
+
+.ritghCardValue {
+    color: #04e39a;
+    z-index: 100;
+    font-size: 2.8rem; 
+    font-weight: 700;
+}
+
+.lineLeftValue {
+    width: 65%;
+    left: 0;
+    height: .5px;
+    background-color: #fefefe;
+
+}
+.divValueFlexDrection {
+    display: flex;
+}
+
+.lineRightValue {
+    width: 65%;
+    height: .5px;
+    background-color: #fefefe;
+    margin: 0 0px 15% auto;
+}
+
+
+/* --------------------------------------- Página 5 --------------------------------- */
+
+.logo_pokercontrol_central_page5 {
+    width: 35%;
+    margin-bottom: 3%;
+    animation-delay: .1s;
+}
+.title_page_5_central {
+    font-size: 2rem;
+    color: #04e39a;
+}
+.subtitle_page_5_central {
+    max-width: 60%;
+    text-align: center;
+    font-size: 2rem;
+    color: #d6fefe;
+    margin-bottom: 1%;
+    animation-delay: .3s;
+}
+
+.imgQrCodeLink {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+}
+.imgQrCodeInt {
+    width: 30%;
+}
+.whatsImgNumber {
+    width: 1.2rem;
+    padding-right: 10px;
+}
+.numberClickEvent {
+    font-size: 1.5rem;
+    color: #04e39a;
+    margin-top: 1%;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+
+
