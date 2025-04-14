@@ -55,12 +55,11 @@ body, html {
 }
 button {
     display: flex;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     scale: .8;
     font-size: 16px;
     cursor: pointer;
-    border: none;
     border-radius: 50%;
     background-color: transparent;
     border: 2px solid #04e39a;
@@ -68,14 +67,34 @@ button {
     transition: 0.3s ease;
     justify-content: center;
     align-items: center;
+    
+}
+
+@keyframes pulse {
+    from {
+        box-shadow:  none;
+    }
+    to {
+        box-shadow: 0px 0px 5px 5px #04e39a;
+    }
 }
 button:hover {
-    background-color: #439a9a;
+    background-color: #177354;
+    scale: .85;
+    
+}
+button:active {
+    scale: .8;
 }
 
 .imgNavButtons {
     width: 30px;
     height: 30px;
+    border-radius: 999px;
+    padding: 10px;
+}
+.animation {
+    animation: pulse .9s ease-in-out infinite alternate;
 }
 
 
@@ -90,13 +109,13 @@ button:hover {
     justify-content: center;
 }
 .logo_pokercontrol_central {
-    width: 35%;
-    margin-bottom: 6%;
+    width: 25%;
+    margin-bottom: 4%;
     animation-delay: .1s;
 }
 
 .title_page_1_central {
-    font-size: 3.8rem;
+    font-size: 350%;
     color: #04e39a;
     margin-bottom: 2%;
     animation-delay: .2s;
@@ -104,7 +123,7 @@ button:hover {
 .subtitle_page_1_central {
     max-width: 60%;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 250%;
     color: #d6fefe;
     margin-bottom: 5%;
     animation-delay: .3s;
@@ -113,7 +132,7 @@ button:hover {
     display: flex;
     background-color: #124640;
     width: 240px;
-    border-radius: 40px;
+    border-radius: 999px;
     padding: 10px;
     border: 1px solid transparent;
     background-image: linear-gradient(#124640, #124640), linear-gradient(45deg, #04e39a, #124640, #124640, #04e39a);
@@ -122,22 +141,24 @@ button:hover {
     color: #04e39a;
     font-weight: 600;
     font-size: 26px;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
+    transition: 0.3s ease, border-color 0.3s ease;
     cursor: pointer;
     justify-content: center;
-    animation-delay: .4s;
     margin-bottom: 10%;
-    scale: .8;
+    scale: 1.2;
 }
 
+
 .button_inicial_experience:hover {
-    background-color: #036f58;
+    background-color: #08866b;
     border-color: #04e39a;
+    scale: 1.23;
 }
 
 .button_inicial_experience:active {
     background-color: #048a6f;
     border-color: #04e39a;
+    scale: 1.2;
 }
 
 
@@ -157,12 +178,12 @@ button:hover {
 
 .cards_3_collunms {
     display: flex;
-    gap: 15px;
+    gap: 40px;
     
 }
 
 .articleStyles {
-    max-width: 250px;
+    max-width: 280px;
     max-height: 28rem;
     width: 27vw;
     height: 60vh;
@@ -186,13 +207,14 @@ button:hover {
 
 .titleCard {
     color: #04e39a;
+    width: 80%;
     font-size: 1.6rem;
     margin: 3% 7%;
     font-weight: 600;
 }
 .textCard {
     color: #d6fefe;
-    font-size: 0.7rem;
+    font-size: 100%;
     margin: 3% 7%;
     font-weight: 300;
     text-shadow: #112834;
@@ -293,7 +315,7 @@ button:hover {
 }
 
 .titleOrInferiorPage {
-    color:#04e39a;
+    color:#fee39a;
     font-size: 2.5rem;
     font-style: italic;
     font-weight: 300;
@@ -320,7 +342,7 @@ button:hover {
     height: 60px;
     background: linear-gradient(to right, transparent, transparent, #05564d);
     border: 1px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     border-radius: 999px;
 }
 .cardsSpecialPrice {
@@ -420,7 +442,7 @@ button:hover {
 /* --------------------------------------- Página 5 --------------------------------- */
 
 .logo_pokercontrol_central_page5 {
-    width: 35%;
+    width: 25%;
     margin-bottom: 3%;
     animation-delay: .1s;
 }
@@ -442,9 +464,10 @@ button:hover {
     flex-direction: column;
     height: auto;
     align-items: center;
+    text-decoration: none;
 }
 .imgQrCodeInt {
-    width: 30%;
+    width: 15vw;
 }
 .whatsImgNumber {
     width: 1.2rem;
@@ -453,7 +476,9 @@ button:hover {
 .numberClickEvent {
     font-size: 1.5rem;
     color: #04e39a;
-    margin-top: 1%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    
 }
 
 /* ---------------------------------------------------------------------------------- */

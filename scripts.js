@@ -21,11 +21,22 @@ const pages = document.querySelectorAll('.page');
             if (currentPage < pages.length - 1) {
                 const nextButton = document.createElement('button');
                 const descubraButton = document.querySelector('#buttonDescubra');
-                nextButton.innerHTML = '<img class="imgNavButtons" src="Assets/img/SetaDireita.png" alt="Próxima" />';
-                nextButton.onclick = () => showPage(currentPage + 1);
+            
+                nextButton.innerHTML = '<img class="imgNavButtons animation" src="Assets/img/SetaDireita.png" alt="Próxima" />';
+            
+                nextButton.onclick = () => {
+                    const img = nextButton.querySelector('img');
+                    if (img) {
+                        img.classList.remove('animation');
+                    }
+                    showPage(currentPage + 1);
+                };
+            
                 navButtons.appendChild(nextButton);
+            
                 descubraButton.onclick = () => showPage(currentPage + 1);
             }
+            
             if (currentPage === pages.length - 1) {
                 const restartButton = document.createElement('button');
                 restartButton.innerHTML = '<img class="imgNavButtons" src="Assets/img/SetaReiniciar.png" alt="Reiniciar" />';
