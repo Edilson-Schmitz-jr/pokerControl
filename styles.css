@@ -537,12 +537,12 @@ button:active {
         transition: 0.3s ease, border-color 0.3s ease;
         cursor: pointer;
         justify-content: center;
-        scale: 1.4;
+        scale: 1.2;
     }
     .button_inicial_experience:hover {
         background-color: #08866b;
         border-color: #04e39a;
-        scale: 1.4;
+        scale: 1.2;
     }
     button {
         width: 100px;
@@ -575,7 +575,7 @@ button:active {
         height: 60px;
         background: linear-gradient(to right, transparent, transparent, #05564d);
         border: 1px;
-        margin-top: 25%;
+        margin-top: 5%;
         border-radius: 999px;
     }
 
@@ -583,7 +583,7 @@ button:active {
         display: flex;
         margin-top: 10%;
         width: 75%;
-        height: 60%;
+        height: 50%;
         align-items: flex-start !important;
         justify-content: flex-start;
         overflow-x: auto !important;
