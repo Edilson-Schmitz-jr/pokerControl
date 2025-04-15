@@ -581,9 +581,9 @@ button:active {
 
     .cards_3_collunms {
         display: flex;
-        margin-top: 10%;
+        margin-top: 3%;
         width: 75%;
-        height: 50%;
+        height: auto;
         align-items: flex-start !important;
         justify-content: flex-start;
         overflow-x: auto !important;
@@ -636,7 +636,7 @@ button:active {
     color: #fee39a;
     font-size: 2.8rem;
     padding: 1px 20px;
-    width: 55%;
+    width: 62%;
     height: 60px;
     background: linear-gradient(to right, transparent, transparent, #193528);
     border: 1px;
@@ -746,17 +746,17 @@ button:active {
 .logo_pokercontrol_central_page5 {
     width: 70%;
     margin-bottom: 10%;
-    margin-top: 20%;
+    margin-top: 5%;
     animation-delay: .1s;
 }
 .title_page_5_central {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #04e39a;
 }
 .subtitle_page_5_central {
     max-width: 60%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #d6fefe;
     margin-bottom: 10%;
     animation-delay: .3s;
@@ -777,7 +777,7 @@ button:active {
     padding-right: 10px;
 }
 .numberClickEvent {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #04e39a;
     margin-top: 10%;
     margin-bottom: 20%;
