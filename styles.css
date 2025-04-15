@@ -506,10 +506,9 @@ button:active {
         width: 70%;
         margin-bottom: 5%;
         margin-top: 15%;
-        animation-delay: .1s;
     }
     .title_page_1_central {
-        font-size: 350%;
+        font-size: 300%;
         color: #04e39a;
         margin-bottom: 10%;
         animation-delay: .2s;
@@ -517,7 +516,7 @@ button:active {
     .subtitle_page_1_central {
         max-width: 80%;
         text-align: center;
-        font-size: 300%;
+        font-size: 200%;
         color: #d6fefe;
         margin-bottom: 20%;
         animation-delay: .3s;
