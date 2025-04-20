@@ -31,6 +31,7 @@ body{
     border-radius: 10px;
     background-color: #565656;
     transition: .2s ease-in-out;
+    cursor: pointer;
 }
 .imgLanguage {
     width: 40px;
@@ -60,6 +61,24 @@ body{
     height: 150px;
     box-shadow: 0 0px 500px 50px #000000;
     transition: .5s ease-in-out;
+}
+.scrollsubtitlepage2 {
+    position: absolute;
+    bottom: 25%;
+    margin: 0 auto;
+    width: 60px;
+    animation: touch 1s infinite alternate .8s;
+}
+@keyframes touch {
+    from {
+        transform: translateX(10px);
+        
+    }
+    to {
+        transform: translateX(-10px);
+        transform: rotate(-10deg);
+    }
+    
 }
 body, html {
     overflow: hidden;
@@ -612,9 +631,7 @@ button:active {
             box-shadow: 0px 0px 5px 5px #04e39a;
         }
     }
-
     /* ----------------------- Página 2--------------------- */
-
     .card_2_title_styles {
         color: #04e39a;
         z-index: 100;
@@ -628,7 +645,6 @@ button:active {
         margin-top: 5%;
         border-radius: 999px;
     }
-
     .cards_3_collunms {
         display: flex;
         margin-top: 3%;
@@ -642,13 +658,11 @@ button:active {
     
         padding-left: 75%; /* Dá espaço antes do primeiro item */
         padding-right: 75%; /* Dá espaço após o último item */
-        gap: 10vw;
+        gap: 7vw;
     
         mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
         -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
     }
-    
-    
     .cards_3_collunms > * {
         scroll-snap-align: center;
         flex-shrink: 0;
@@ -664,23 +678,7 @@ button:active {
         margin: 10% auto;
         flex-direction: column;
     }
-    .card1 {
-        animation: touchInstige 1s ease-out infinite alternate;
-
-    }
-
-    @keyframes touchInstige {
-        from {
-        }
-        to {
-            transform: translateX(-10px);
-            
-        }
-        
-    }
 /* --------------------- Página 3 ------------------------ */
-
-
 .priceTitle {
     z-index: 100;
     color: #fee39a;
@@ -691,10 +689,14 @@ button:active {
     background: linear-gradient(to right, transparent, transparent, #193528);
     border: 1px;
     border-radius: 999px;
-    margin-bottom: 5rem;
+    margin-top: 20%;
 }
-
-
+.priceDivValue {
+    margin-top: 10%;
+}
+.titleOrInferiorPage {
+    margin-bottom: 30%;
+}
 /* ------------------------- Página 4 ------------------------ */
 
 .titleSpecialPrice {
@@ -728,7 +730,7 @@ button:active {
     display: flex;
     flex-direction: column;
     background-color: #05564d;
-    width: 90%;
+    width: 99%;
     height: 165px;
     border-radius: 15px;
     border: 1px solid #fefefe;
@@ -737,7 +739,7 @@ button:active {
     display: flex;
     flex-direction: column;
     background-color: #05564d;
-    width: 90%;
+    width: 99%;
     height: 225px;
     border-radius: 15px;
     border: 1px solid #fefefe;
@@ -747,7 +749,7 @@ button:active {
     display: flex;
     flex-direction: column;
     background-color: #05564d;
-    width: 95%;
+    width: 99%;
     height: 400px;
     border-radius: 15px;
     border: 1px solid #fefefe;
