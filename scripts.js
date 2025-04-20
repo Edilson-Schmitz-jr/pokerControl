@@ -47,3 +47,14 @@ const pages = document.querySelectorAll('.page');
         
 
         showPage(0);
+
+
+
+        const languageButton = document.querySelector('#buttonLanguage');
+
+        languageButton.addEventListener('click', enableLanguage);
+        
+        function enableLanguage() {
+            languageButton.classList.toggle('active');
+        }
+        
