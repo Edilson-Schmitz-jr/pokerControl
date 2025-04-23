@@ -63,7 +63,6 @@ body{
     transition: .5s ease-in-out;
 }
 .scrollsubtitlepage2 {
-    position: absolute;
     bottom: 25%;
     margin: 0 auto;
     width: 60px;
@@ -689,13 +688,16 @@ button:active {
     background: linear-gradient(to right, transparent, transparent, #193528);
     border: 1px;
     border-radius: 999px;
-    margin-top: 20%;
+    margin-bottom: 0;
+}
+.containerPriceElements {
+    gap: 10%;
 }
 .priceDivValue {
     margin-top: 10%;
 }
 .titleOrInferiorPage {
-    margin-bottom: 30%;
+    margin-bottom: 50%;
 }
 /* ------------------------- Página 4 ------------------------ */
 
@@ -809,7 +811,7 @@ button:active {
 .logo_pokercontrol_central_page5 {
     width: 70%;
     margin-bottom: 10%;
-    margin-top: 5%;
+    margin-top: 15%;
     animation-delay: .1s;
 }
 .title_page_5_central {
@@ -833,7 +835,7 @@ button:active {
     text-decoration: none;
 }
 .imgQrCodeInt {
-    width: 70vw;
+    width: 60vw;
 }
 .whatsImgNumber {
     width: 1.2rem;
