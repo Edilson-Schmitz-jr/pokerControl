@@ -63,10 +63,7 @@ body{
     transition: .5s ease-in-out;
 }
 .scrollsubtitlepage2 {
-    bottom: 25%;
-    margin: 0 auto;
-    width: 60px;
-    animation: touch 1s infinite alternate .8s;
+    display: none;
 }
 @keyframes touch {
     from {
@@ -676,6 +673,13 @@ button:active {
         display: flex;
         margin: 10% auto;
         flex-direction: column;
+    }
+    .scrollsubtitlepage2 {
+        bottom: 25%;
+        margin: 0 auto;
+        width: 60px;
+        animation: touch 1s infinite alternate .8s;
+        display: block;
     }
 /* --------------------- Página 3 ------------------------ */
 .priceTitle {
