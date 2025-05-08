@@ -4,7 +4,14 @@ const pages = document.querySelectorAll('.page');
 
         function showPage(index) {
             pages.forEach((page, i) => {
-                page.classList.toggle('hidden', i !== index);
+                page.classList.remove('active', 'prev', 'hidden');
+                if (i === index) {
+                    page.classList.add('active');
+                } else if (i === index - 1) {
+                    page.classList.add('prev');
+                } else {
+                    page.classList.add('hidden');
+                }
             });
             currentPage = index;
             updateButtons();
@@ -34,7 +41,9 @@ const pages = document.querySelectorAll('.page');
             
                 navButtons.appendChild(nextButton);
             
-                descubraButton.onclick = () => showPage(currentPage + 1);
+                if (descubraButton) {
+                    descubraButton.onclick = () => showPage(currentPage + 1);
+                }
             }
             
             if (currentPage === pages.length - 1) {
@@ -45,10 +54,16 @@ const pages = document.querySelectorAll('.page');
             }
         }
         
+        pages.forEach((page, i) => {
+            page.classList.remove('active', 'prev', 'hidden');
+            if (i === 0) {
+                page.classList.add('active');
+            } else {
+                page.classList.add('hidden');
+            }
+        });
 
         showPage(0);
-
-
 
         const languageButton = document.querySelector('#buttonLanguage');
 

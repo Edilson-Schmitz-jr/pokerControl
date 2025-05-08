@@ -12,91 +12,77 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="buttonLanguage" alt="Button for language selection" class="buttonSourceLanguage">
-        <img src="Assets/img/language.png" class="imgLanguage">
-        <a class="brasilianButton" href="index.html"><img class="brazilButton" src="Assets/img/brazil.png"></a>
-        <a class="englishButton" href="in-US.html"><img class="brazilButton" src="Assets/img/ing.png"></a>
+    <div id="buttonLanguage" class="buttonSourceLanguage" aria-label="Language selection">
+        <img src="Assets/img/language.png" class="imgLanguage" alt="Language icon">
+        <a class="brasilianButton" href="index.html"><img class="brazilButton" src="Assets/img/brazil.png" alt="Brazil flag"></a>
+        <a class="englishButton" href="in-US.html"><img class="brazilButton" src="Assets/img/ing.png" alt="UK flag"></a>
     </div>
     <article class="container" id="container">
         <section class="page" id="page1">
             <div class="container_page_1_elements">
-                <img role="presentation" src="Assets/img/Horizontal Colorido.png" class="logo_pokercontrol_central">
-                <h1 alt="Poker Control" class="title_page_1_central">Poker Control</h1>
-                <p alt="Simplify your management with the most practical, intuitive, and affordable software!" class="subtitle_page_1_central">
-                    Simplify your management with the most practical, intuitive, and affordable software!
-                </p>
-                <a alt="Button says: Discover now!, or press left arrow key" id="buttonDescubra" class="button_inicial_experience">Discover now!</a>
+                <img src="Assets/img/Horizontal Colorido.png" class="logo_pokercontrol_central" alt="Poker Control logo">
+                <h1 class="title_page_1_central">Poker Control</h1>
+                <p class="subtitle_page_1_central">Simplify your management with the most practical, intuitive, and affordable software!</p>
+                <a id="buttonDescubra" class="button_inicial_experience" aria-label="Discover now!">Discover now!</a>
             </div>
         </section>
         <section class="page hidden" id="page2">
             <div class="container_page_1_elements">
-                <h1 alt="Innovative features" class="card_2_title_styles">Innovative features</h1>
+                <h2 class="card_2_title_styles">Innovative features</h2>
                 <div class="cards_3_collunms">
-                    <article alt="First card of 3, written content" class="articleStyles card1">
-                        <img role="presentation" class="card_img" src="Assets/img/imgToque.png">
-                        <h1 alt="Simplified usability" class="titleCard">Simplified usability</h1>
-                        <p alt="Your work flows lighter and more efficiently. An intuitive interface that cuts down operation time and boosts productivity!" class="textCard">
-                            Your work flows lighter and more efficiently. An intuitive interface that cuts down operation time and boosts productivity!
-                        </p>
-                        <img class="scrollsubtitlepage2 activepage" src="Assets/img/touchImgTransition.png">
+                    <article class="articleStyles card1">
+                        <img class="card_img" src="Assets/img/imgToque.png" alt="Touch icon representing simplified usability">
+                        <h3 class="titleCard">Simplified usability</h3>
+                        <p class="textCard">Your work flows lighter and more efficiently. An intuitive interface that cuts down operation time and boosts productivity!</p>
+                        <img class="scrollsubtitlepage2 activepage" src="Assets/img/touchImgTransition.png" alt="Gesture icon for horizontal scroll">
                     </article>
-                    <article alt="Second card of 3, written content" class="articleStyles">
-                        <img role="presentation" class="card_img" src="Assets/img/imgPacote.png">
-                        <h1 alt="Ranking and vacancies module" class="titleCard">Ranking and vacancies module</h1>
-                        <p alt="Automation is your best ally! No more wasting time with scores and seats, Poker Control does it for you!" class="textCard">
-                            Automation is your best ally! No more wasting time with scores and seats, Poker Control does it for you!
-                        </p>
+                    <article class="articleStyles">
+                        <img class="card_img" src="Assets/img/imgPacote.png" alt="Package icon representing ranking and vacancies module">
+                        <h3 class="titleCard">Ranking and vacancies module</h3>
+                        <p class="textCard">Automation is your best ally! No more wasting time with scores and seats, Poker Control does it for you!</p>
                     </article>
-                    <article alt="Third card of 3, written content" class="articleStyles card3">
-                        <img role="presentation" class="card_img" src="Assets/img/imgCartas.png">
-                        <h1 alt="Table control panel" class="titleCard painelMesas">Table control panel</h1>
-                        <p alt="Simplify table management, locate and transfer players with just a few clicks. Poker Control cuts the bureaucracy!" class="textCard">
-                            Simplify table management, locate and transfer players with just a few clicks. Poker Control cuts the bureaucracy!
-                        </p>
+                    <article class="articleStyles card3">
+                        <img class="card_img" src="Assets/img/imgCartas.png" alt="Cards icon representing table control panel">
+                        <h3 class="titleCard painelMesas">Table control panel</h3>
+                        <p class="textCard">Simplify table management, locate and transfer players with just a few clicks. Poker Control cuts the bureaucracy!</p>
                     </article>
                 </div>
             </div>
         </section>
-        <section alt="Page 3, special offer value. Content follows" class="page backgroung3Page hidden" id="page3">
-            <div role="presentation" class="containerPriceElements">
-                <h1 alt="Affordable subscription" class="priceTitle">Affordable subscription</h1>
-                <div role="presentation" class="priceDivValue">
-                    <h1 alt="Only 747 reais" class="titleApenas">Only</h1>
-                    <div role="presentation" class="divValuePrice">
-                        <h1 role="presentation" class="priceRSValue">R$</h1>
-                        <h1 role="presentation" class="priceMainNumber">747</h1>
-                        <h1 role="presentation" class="priceCentsLitleNumber">,00</h1>
+        <section class="page backgroung3Page hidden" id="page3">
+            <div class="containerPriceElements">
+                <h2 class="priceTitle">Affordable subscription</h2>
+                <div class="priceDivValue">
+                    <span class="titleApenas">Only</span>
+                    <div class="divValuePrice">
+                        <span class="priceRSValue">R$</span>
+                        <span class="priceMainNumber">747</span>
+                        <span class="priceCentsLitleNumber">,00</span>
                     </div>
                 </div>
-                <h1 alt="Or, next page for cheaper value" class="titleOrInferiorPage">Or...</h1>
+                <h3 class="titleOrInferiorPage">Or...</h3>
             </div>
         </section>
-        <section alt="Page 4, subscription with advertisement" class="page hidden" id="page4">
-            <div role="presentation" class="containerSpecialPrice">
-                <h1 alt="Special offer" class="titleSpecialPrice">Special offer</h1>
-                <div role="presentation" class="cardsSpecialPrice">
-                    <div role="presentation" class="colunmCard specialPrice1">
-                        <div role="presentation" class="cardLeft1">
-                            <h1 alt="Get a discount on your subscription by displaying ads" class="textCards">
-                                Get a discount on your subscription by displaying ads
-                            </h1>
+        <section class="page hidden" id="page4">
+            <div class="containerSpecialPrice">
+                <h2 class="titleSpecialPrice">Special offer</h2>
+                <div class="cardsSpecialPrice">
+                    <div class="colunmCard specialPrice1">
+                        <div class="cardLeft1">
+                            <h3 class="textCards">Get a discount on your subscription by displaying ads</h3>
                         </div>
-                        <div role="presentation" class="cardLeft2">
-                            <h1 alt="Advertise partners on blind screens and earn equal or higher than the subscription!" class="textCards">
-                                Advertise partners on blind screens and earn equal or higher than the subscription!
-                            </h1>
+                        <div class="cardLeft2">
+                            <h3 class="textCards">Advertise partners on blind screens and earn equal or higher than the subscription!</h3>
                         </div>
                     </div>
-                    <div role="presentation" class="colunmCard specialPrice2">
-                        <div role="presentation" class="cardRight">
-                            <h1 alt="Plan with Advertisement" class="textCards ritghCardValue">
-                                Plan with Advertisement
-                            </h1>
-                            <div role="presentation" class="lineLeftValue"></div>
+                    <div class="colunmCard specialPrice2">
+                        <div class="cardRight">
+                            <h3 class="textCards ritghCardValue">Plan with Advertisement</h3>
+                            <div class="lineLeftValue"></div>
                             <div class="divValueFlexDrection">
-                                <h1 alt="Value of 600 reais" class="rsValuePricePage4 priceRSValue">R$</h1>
-                                <h1 role="presentation" class="value600 priceMainNumber">600</h1>
-                                <h1 role="presentation" class="priceCentsPage4 priceCentsLitleNumber">,00</h1>
+                                <span class="rsValuePricePage4 priceRSValue">R$</span>
+                                <span class="value600 priceMainNumber">600</span>
+                                <span class="priceCentsPage4 priceCentsLitleNumber">,00</span>
                             </div>
                             <div class="lineRightValue"></div>
                         </div>
@@ -104,18 +90,16 @@
                 </div>
             </div>
         </section>
-        <section alt="Final page, QR Code for contact to schedule a conversation" class="page hidden" id="page5">
-            <div role="presentation" class="container_page_1_elements">
-                <img role="presentation" src="Assets/img/Horizontal Colorido.png" class="logo_pokercontrol_central_page5">
-                <h1 alt="Get in touch with us and" class="title_page_5_central">Get in touch with us and</h1>
-                <p alt="schedule a conversation" class="subtitle_page_5_central">
-                    schedule a conversation
-                </p>
-                <a alt="Link to redirect to WhatsApp in new tab" target="_blank" href="https://api.whatsapp.com/send/?phone=5547997244186&text&type=phone_number&app_absent=0" class="imgQrCodeLink">
-                    <img role="presentation" src="Assets/img/qrCode.png" class="imgQrCodeInt">
-                    <h1 role="presentation" class="numberClickEvent">
-                        <img class="whatsImgNumber" src="Assets/img/assetImgWhats.png">(47) 9 9734-4186
-                    </h1>
+        <section class="page hidden" id="page5">
+            <div class="container_page_1_elements">
+                <img src="Assets/img/Horizontal Colorido.png" class="logo_pokercontrol_central_page5" alt="Poker Control logo">
+                <h2 class="title_page_5_central">Get in touch with us and</h2>
+                <p class="subtitle_page_5_central">Schedule a conversation</p>
+                <a target="_blank" href="https://api.whatsapp.com/send/?phone=5547997244186&text&type=phone_number&app_absent=0" class="imgQrCodeLink" aria-label="Open WhatsApp conversation">
+                    <img src="Assets/img/qrCode.png" class="imgQrCodeInt" alt="QR Code for WhatsApp contact">
+                    <span class="numberClickEvent">
+                        <img class="whatsImgNumber" src="Assets/img/assetImgWhats.png" alt="WhatsApp icon">(47) 9 9734-4186
+                    </span>
                 </a>
             </div>
         </section>
