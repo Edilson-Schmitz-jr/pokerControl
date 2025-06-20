@@ -173,6 +173,66 @@ button:active {
     animation: pulse .9s ease-in-out infinite alternate;
 }
 
+.buttonSourceLanguage.loginButtonCustom {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-width: 90px;
+    height: 40px;
+    padding: 0 18px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #565656;
+    border: none;
+    border-radius: 10px;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-left: 0;
+    box-shadow: 0 0px 20px 2px #00000022;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    font-weight: 600;
+}
+
+.loginButtonCustom {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-width: 90px;
+    height: 40px;
+    padding: 0 18px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #565656;
+    border: none;
+    border-radius: 10px;
+    margin-right: 140px;
+    margin-top: 10px;
+    margin-left: 0;
+    box-shadow: 0 0px 20px 2px #00000022;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    font-weight: 600;
+}
+.buttonSourceLanguage.loginButtonCustom:hover {
+    background-color: #177354;
+    color: #04e39a;
+}
+
+/* Novo container para agrupar os botões no topo direito */
+.topRightButtonsContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    z-index: 1000;
+    width: auto;
+}
+
 
 /* --------------------------- Primeira página------------------------------------ */
 
