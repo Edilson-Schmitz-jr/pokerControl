@@ -1,5 +1,6 @@
 const pages = document.querySelectorAll('.page');
         const navButtons = document.getElementById('navButtons');
+        const topRightButtonsContainer = document.querySelector('.topRightButtonsContainer');
         let currentPage = 0;
 
         function showPage(index) {
@@ -15,6 +16,12 @@ const pages = document.querySelectorAll('.page');
             });
             currentPage = index;
             updateButtons();
+
+            if (index === 0) {
+                topRightButtonsContainer.classList.remove('hide-element');
+            } else {
+                topRightButtonsContainer.classList.add('hide-element');
+            }
         }
 
         function updateButtons() {

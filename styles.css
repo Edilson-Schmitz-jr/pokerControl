@@ -48,7 +48,7 @@ body{
 
 .buttonSourceLanguage.active .brazilButton {
     position: static;
-    width: 50px;
+    width: 40px;
     height: auto;
     display: block;
     opacity: 1;
@@ -58,7 +58,7 @@ body{
 }
 
 .buttonSourceLanguage.active {
-    width: 70px;
+    width: 50px;
     height: auto;
     min-height: 40px;
     box-shadow: 0 0px 50px 5px #00000044;
@@ -92,6 +92,9 @@ body, html {
     align-items: center;
 }
 
+.hide-element {
+    display: none !important;
+}
 
 .container {
     display: flex;
@@ -196,19 +199,17 @@ button:active {
 }
 
 .loginButtonCustom {
-    flex-direction: row;
+    display: flex;
     align-items: center;
-    justify-content: center;
     width: auto;
-    min-width: 90px;
     height: 40px;
     padding: 0 18px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #fff;
+    text-decoration: none;
     background-color: #565656;
-    border: none;
     border-radius: 10px;
-    margin-right: 140px;
+    margin-right: 70px;
     margin-top: 10px;
     margin-left: 0;
     box-shadow: 0 0px 20px 2px #00000022;
@@ -224,8 +225,8 @@ button:active {
 /* Novo container para agrupar os botões no topo direito */
 .topRightButtonsContainer {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 0px;
+    right: 0px;
     display: flex;
     flex-direction: row-reverse;
     gap: 10px;
